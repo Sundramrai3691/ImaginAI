@@ -1,8 +1,9 @@
-streamlit
-tensorflow-cpu
-torch
-torchvision
-Pillow
-numpy
-matplotlib
-scipy
+streamlit==1.33.0          
+tensorflow-cpu==2.15.0     
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+Pillow==10.4.0
+numpy==1.26.4
+matplotlib==3.9.0
+scipy==1.13.1
