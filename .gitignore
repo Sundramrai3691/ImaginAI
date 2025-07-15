@@ -1,18 +1,31 @@
+# Python bytecode and cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.so
 *.egg-info/
+.cache/
+pip-wheel-metadata/
+
+# Build and distribution
 build/
 dist/
+
+# Virtual environments
 venv/
 env/
 .venv/
+
+# IDE/editor folders
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# Jupyter/IPython
 .ipynb_checkpoints/
+
+# Model files and weights
 *.h5
 *.pt
 *.pth
@@ -20,24 +33,34 @@ env/
 *.onnx
 models/
 checkpoints/
+
+# Generated datasets and outputs
 datasets/
 outputs/
 intermediate_images/
+
+# Logs
 *.log
 *.tensorboard
-.cache/
-pip-wheel-metadata/
-__pycache__/
+
+# OS-specific
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Archives
 *.zip
 *.tar.gz
 *.tar
 *.rar
+
+# Environment variables
 .env
 .env.*
+
+# Node.js (if used)
 node_modules/
-.streamlit/config.toml
+
+# Streamlit specific
 .streamlit/secrets.toml
 .streamlit/static/
