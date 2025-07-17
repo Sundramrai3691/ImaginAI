@@ -1,35 +1,26 @@
 # ImaginAI
 
-**ImaginAI** is a lightweight web application that uses neural style transfer to transform your images into AI-generated artwork. Built with Python and Streamlit, it enables you to upload content and style images to create high-quality stylized outputs.
+**ImaginAI** is a lightweight web app that uses neural style transfer to turn your photos into AI-generated artwork. Upload a content image, apply a style, and create high-quality stylized outputs in seconds.
 
 ## Features
 
-- Upload your own content and style images
-- Choose from a built-in gallery of styles
-- Adjustable output resolution, style intensity, and training epochs
-- Optional post-processing filters: sharpen, blur, enhance
-- Download final output as HD JPEG or PNG
+- Upload custom content and style images  
+- Built-in style gallery for quick inspiration  
+- Control resolution, style intensity, and training epochs  
+- Optional filters: sharpen, blur, enhance  
+- Download final output in HD (JPEG/PNG)
 
 ## Tech Stack
 
-- Python
-- Streamlit
-- PyTorch
-- Pillow (PIL)
-- TensorFlow (for model architecture)
+- Python  
+- Streamlit  
+- PyTorch  
+- Pillow (PIL)  
+- TensorFlow (model architecture)
 
 ## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Sundramrai3691/ImaginAI.git
-   cd ImaginAI
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-3. Run the application:
-   ```bash
-   streamlit run app.py
+Clone the repo:
+```bash
+git clone https://github.com/Sundramrai3691/ImaginAI.git
+cd ImaginAI
